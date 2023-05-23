@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "a100",
+    "name": "Ball",
+    "price": 30,
+    "inStock": true,
+    "createdAt": 1684300175422
+  },
+  {
+    "_id": "a101",
+    "name": "Puzzle",
+    "price": "50",
+    "inStock": false,
+    "createdAt": 1684310175422
+  },
+  {
+    "_id": "a102",
+    "name": "Doll",
+    "price": "40",
+    "inStock": true,
+    "createdAt": 1684410174422
+  },
+  {
+    "price": 70,
+    "name": "Football",
+    "_id": "iSKuL",
+    "createdAt": 1684851288325,
+    "inStock": true
+  }
+]

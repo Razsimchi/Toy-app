@@ -1,0 +1,41 @@
+.toy-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .toy-preview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+  }
+  
+  .toy-preview:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  .toy-preview button,
+  .toy-preview a {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-inline: 5px;
+  }
+  
+  .toy-preview button:hover,
+  .toy-preview a:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+  
+  .toy-preview a:not(:last-child) {
+    margin-right: 10px;
+  }

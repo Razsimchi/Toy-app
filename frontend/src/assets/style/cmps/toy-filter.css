@@ -1,0 +1,33 @@
+.toy-filter {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .toy-filter label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .toy-filter select,
+  .toy-filter input[type="checkbox"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .toy-filter select:hover,
+  .toy-filter input[type="checkbox"]:hover {
+    border-color: #007bff;
+  }
+  
+  .toy-filter label[for="inStock"] {
+    font-weight: normal;
+  }
+  
+  .toy-filter label[for="inStock"]:hover {
+    color: #007bff;
+  }

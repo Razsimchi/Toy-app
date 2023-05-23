@@ -1,0 +1,40 @@
+.toy-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toy-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .toy-details h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .toy-details p {
+    font-size: 16px;
+    margin-block: 70px;
+  }
+  
+  .toy-details a {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toy-details a:hover {
+    background-color: #0056b3;
+  }
+  
+  .toy-details a:not(:last-child) {
+    margin-right: 10px;
+  }
